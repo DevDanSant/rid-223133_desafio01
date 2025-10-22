@@ -1,25 +1,58 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Passion+One:wght@400;700;900&family=Sriracha&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <title>desafio</title>
-
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Desafio</title>
+  <link rel="stylesheet" href="estilos.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inder&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Passion+One:wght@400;700;900&family=Sriracha&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div id="menusuperior">
-        <h1 id="titulo_supeior">Tradição em projetos de arquitetura</h1>
+<!--Considerações: No meio do desenvolvimento tive bastante dificultades de posionar as divs, de forma correta e coerente com o do modelo.Apos esse projeto sei onde focar e melhorar agora :)-->
+  <section class="menusuperior">
+    <h1>Tradição em projetos de arquitetura</h1>
+    <p>Arquitetura residencial e comercial.</p>
+  </section>
 
-        <p id="texto_supeior">Arquitetura residencial e comercial. </p>
-
-
-
-
+  <section class="dados">
+    <div class="dado">
+      <h2>850</h2>
+      <p>empreendimentos construídos</p>
     </div>
-    
+    <div class="dado">
+      <h2>40</h2>
+      <p>anos de mercado e experiência</p>
+    </div>
+    <div class="dado">
+      <h2>2.000.000</h2>
+      <p>m² em projetos construídos</p>
+    </div>
+  </section>
+  
+  <section class="sobre">
+    <div id="sobtexto">
+      <h2>Arquitetos com História e Experiência.</h2>
+      <p>
+        Nós realizamos desde 2002 projetos e gerenciamento de obras.
+        Com mais de 800 projetos e 2.000.000 de m² construídos, tendo como principal proposta transformar em realidade os sonhos de seus clientes, criando projetos personalizados, unindo a tradição e a modernidade em nossos projetos.
+      </p>
+    </div>
+
+    <img class="imagem" src="img/foto01.svg" alt="">
+  </section>
+
+  <section class="contato">
+    <h2>Conheça mais sobre nossos serviços:</h2>
+    <form action="https://api.sheetmonkey.io/form/f67nzF37U3qeL9CRUwtw7L" method="post">
+      <input type="text" name="name" placeholder="Nome" required />
+      <input type="email" name="email" placeholder="Email" required />
+      <textarea placeholder="Fale Conosco" required></textarea>
+      <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
 </body>
 </html>
